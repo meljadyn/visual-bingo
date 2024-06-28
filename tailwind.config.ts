@@ -18,6 +18,10 @@ const config = {
         "2xl": "1400px",
       },
     },
+    fontFamily: {
+      'sans': ['Poppins', ...['ui-sans-serif', 'system-ui']],
+      'serif': ['Merriweather', ...['ui-serif', 'Georgia']],
+    },
     extend: {
       colors: {
         border: "hsl(var(--border))",
