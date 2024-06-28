@@ -15,8 +15,8 @@ export default async function BingoCard() {
 
     if (!error) {
       return (
-      <div className="w-fit rounded shadow-sm mx-auto">
-        <h1 className="mx-auto text-6xl font-sans">Bingo Card</h1>
+      <div className="w-fit rounded border mx-auto p-8">
+        <h1 className="text-center text-6xl font-sans mb-4">Bingo Card</h1>
         <ul className="grid grid-cols-5 w-fit mx-auto">
           { bingoItems.map((item) => (
             <li key={item.bingo_card_id}>

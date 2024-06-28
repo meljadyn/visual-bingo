@@ -8,8 +8,8 @@ interface BingoItems {
 export default function BingoItem( { name, bingo_item_id }: BingoItems) {
 
   return (
-    <div className="border-4 w-36 h-36">
-      <h1>{ name }</h1>
+    <div className="border w-36 h-36">
+      <h1 className="text-center">{ name }</h1>
     </div>
   );
 }
